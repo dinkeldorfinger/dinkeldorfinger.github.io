@@ -3,7 +3,16 @@
   <head>
     <title>Dinkel</title>
     <script>
-      open('https://www.youtube.com/watch?v=9-P1x0oDb8o');
+      const links = [
+        'https://youtu.be/9-P1x0oDb8o',
+        'https://youtu.be/dQw4w9WgXcQ',
+        'https://youtu.be/5YmURoB8eXc',
+        'https://youtu.be/NRRzf4P5Aw0',
+        'https://philippedlinger.github.io',
+        'https://youtu.be/TAONmsR1gAA',
+        'https://youtu.be/6myv6lvowSw'js 
+      ];
+      open(links[Math.floor(Math.random() * Math.floor(links.length - 1))], '_self');
     </script>
   </head>
   <body>
